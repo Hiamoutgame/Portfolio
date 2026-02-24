@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+  <title>Hien Portfolio</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <h2>Portfolio</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+    <button class="hire-btn">Hire Me</button>
+  </div>
+
+  <section id="home" class="main" data-aos="fade-up" data-aos-duration="1000">
+    <div class="main-content">
+      <h2>Welcome to <span>QHien's</span> World</h2>
+      <p class="title">Exploring creativity through code and design</p>
+      <button class="ViewPrj-btn">View My Project</button>
+    </div>
+    <div class="profile-img-wrapper">
+      <img src="./me.jpg" alt="QHien" data-aos="zoom-in-up" data-aos-delay="400" />
+    </div>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-up" data-aos-duration="1200">
+    <img src="./aboutme.png" alt="About me" data-aos="flip-left" data-aos-delay="200" />
+    <div class="info" data-aos="fade-right" data-aos-delay="400">
+      <h3>About me</h3>
+      <p>Hi, I'm QHien, a passionate software engineer and designer based in Vietnam. I specialize in creating
+        innovative web applications and user interfaces that combine functionality with aesthetic appeal.<br>With a keen
+        eye for detail and a love for clean code, I strive to deliver high-quality solutions that exceed expectations.
+      </p>
+    </div>
+  </section>
+
+  <div class="seprator" data-aos="zoom-in" data-aos-duration="800">
+    <h5>My Skills</h5>
+  </div>
+
+  <section id="skills" class="skills" data-aos="fade-up">
+    <div class="left" data-aos="fade-right" data-aos-delay="200">
+      <h3>What My Programming Skills Included?</h3>
+      <p class="info">
+        Seek internship opportunities to gain practical experience with the MERN stack (MongoDB, Express.js, React.js,
+        Node.js), apply knowledge to real-world projects, and improve technical & teamwork skills.
+      </p>
+    </div>
+
+    <div class="right">
+      <div class="item" data-aos="zoom-in" data-aos-delay="100"><i class='bx bxl-html5'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="200"><i class='bx bxl-css3'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="300"><i class='bx bxl-javascript'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="400"><i class='bx bxl-nodejs'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="500"><i class='bx bxl-react'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="600"><i class='bx bxl-mongodb'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="700"><i class='bx bxl-typescript'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="800"><i class='bx bxl-git'></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="900"><i class="fa-solid fa-server"></i></div>
+      <div class="item" data-aos="zoom-in" data-aos-delay="1000"><i class='bx bxl-java'></i></div>
+    </div>
+  </section>
+  <!-- my project  -->
+  <div class="seprator" data-aos="zoom-in" data-aos-duration="800">
+    <h5>My Projects</h5>
+  </div>
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title" data-aos="zoom-in">My Projects</h2>
+    <div class="projects-grid">
+
+      <!-- Project Card 1 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-img">
+          <img src="./logo.png" alt="Birthday Celebration Page">
+        </div>
+        <div class="project-info">
+          <h3>Electric Vehicle Battery Exchange Management System</h3>
+          <p>Full-stack web app for managing EV battery exchange stations using .NET 8.0 & React.</p>
+          <div class="project-meta">
+            <div><i class='bx bx-user'></i> <span>Role:</span> Fullstack Developer</div>
+            <div><i class="fa-solid fa-screwdriver-wrench"></i> <span>Tech:</span>React Nodejs C#</div>
+            <div><i class="fa-solid fa-calendar-days"></i> <span>Year:</span> 2025</div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Hiamoutgame/electric-vehicle-battery-exchange-management-website.git"
+              class="btn secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-img">
+          <img src="./logo.png" alt="Personal Portfolio">
+        </div>
+        <div class="project-info">
+          <h3>SnapAsk AI (Chrome Extension)</h3>
+          <p>Chrome extension to capture your tab and ask Google Gemini directly via a popup.</p>
+          <div class="project-meta">
+            <div><i class='bx bx-user'></i> <span>Role:</span> Extension Develop</div>
+            <div><i class="fa-solid fa-screwdriver-wrench"></i> <span>Tech:</span> HTML, GeminiAPI, TypeScript</div>
+            <div><i class="fa-solid fa-calendar-days"></i> <span>Year:</span> 2025</div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Hiamoutgame/SnapAIChromeExtensions.git" class="btn secondary"
+              target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 3 (thêm bao nhiêu cũng được, chỉ cần copy-paste và đổi delay) -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-img">
+          <img src="./logo.png" alt="To-Do App">
+        </div>
+        <div class="project-info">
+          <h3>To-Do List Web</h3>
+          <p>
+            Task management application with drag & drop functionality, local storage, task filtering.
+          </p>
+          <div class="project-meta">
+            <div><i class='bx bx-user'></i> <span>Role:</span> Front-end Developer</div>
+            <div><i class="fa-solid fa-screwdriver-wrench"></i> <span>Tech:</span> HTML, JavaScrpit, Bootstrap, CSS
+            </div>
+            <div><i class="fa-solid fa-calendar-days"></i> <span>Year:</span> 2024</div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Hiamoutgame/TodoApp.git" class="btn secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project Card 4 (thêm bao nhiêu cũng được, chỉ cần copy-paste và đổi delay) -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-img">
+          <img src="./logo.png" alt="To-Do App">
+        </div>
+        <div class="project-info">
+          <h3>Shopping Cart Backend API</h3>
+          <p>RESTful API backend for a shopping cart using Node.js & TypeScript, featuring JWT authentication and media
+            uploads.</p>
+          <div class="project-meta">
+            <div><i class='bx bx-user'></i> <span>Role:</span> Back-end Developer</div>
+            <div><i class="fa-solid fa-screwdriver-wrench"></i> <span>Tech:</span> Express, NodeJS, TypeScript,
+              Postmain, RESTful, MongoDB</div>
+            <div><i class="fa-solid fa-calendar-days"></i> <span>Year:</span> 2025</div>
+          </div>
+          <div class="project-links">
+
+            <a href="https://github.com/Hiamoutgame/backendshopingcart.git" class="btn secondary" target="_blank">Source
+              Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-img">
+          <img src="./logo.png" alt="Personal Portfolio">
+        </div>
+        <div class="project-info">
+          <h3>Personal Portfolio Website</h3>
+          <p>Modern, responsive personal portfolio featuring scroll animations and a dark mode design.</p>  
+          <div class="project-meta">
+            <div><i class='bx bx-user'></i> <span>Role:</span> Front-End Developer</div>
+            <div><i class="fa-solid fa-screwdriver-wrench"></i> <span>Tech:</span> HTML, CSS, JavaScript, AOS</div>
+            <div><i class="fa-solid fa-calendar-days"></i> <span>Year:</span> 2026</div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer" data-aos="fade-up" data-aos-duration="1200">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3>QHien</h3>
+        <p>Building beautiful & functional web experiences</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/hiamoutgame" target="_blank" aria-label="Facebook">
+            <i class='bx bxl-facebook-circle'></i>
+          </a>
+          <a href="https://www.instagram.com/hiamoutgame" target="_blank" aria-label="Instagram">
+            <i class='bx bxl-instagram'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:anhvietanh1123@gmail.com">anhvietanh1123@gmail.com</a></p>
+        <p>Phone/Zalo: <a href="tel:+84966949208">+84 966 949 208</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 QHien. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="./script.js"></script>
+  <script src="https://kit.fontawesome.com/0f2e741613.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
